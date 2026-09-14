@@ -2,6 +2,10 @@
 
 A complete end-to-end macro-finance and data-science project studying how RBI repo-rate changes relate to Nifty 50 volatility from 2012 to 2025.
 
+
+[![Repo Shocks and Volatility Regimes](./assets/dashboard_01.png)](./app.py)
+[![Repo Shocks and Volatility Regimes 2](./assets/dashboard_02.png)](./app.py)
+
 ## Project Summary
 
 This repository brings together policy data, market data, and quantitative analysis to answer a focused question:

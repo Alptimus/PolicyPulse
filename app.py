@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
 
-st.set_page_config(page_title="PolicyPulse: RBI MacroVol", layout="wide")
+st.set_page_config(page_title="PolicyPulse: RBI Repo Shocks and Nifty Volatility Regimes", layout="wide")
 
 # ---------------------------------------------------------
 # 1. Data Loading & Caching
@@ -34,7 +34,7 @@ filtered_df = df[(df['Year'] >= years[0]) & (df['Year'] <= years[1]) & (df['Regi
 # ---------------------------------------------------------
 # 3. Main UI & Insights
 # ---------------------------------------------------------
-st.title("MacroVol: ML-Driven Analysis of RBI Policy on Nifty Volatility")
+st.title("PolicyPulse: ML-Driven Analysis of RBI Policy on Nifty Volatility")
 
 st.markdown("""
 **Macroeconomic Insight:** Both Logistic Regression and Random Forest models failed to beat a majority-class baseline when predicting post-announcement directional movement. This mathematical "failure" successfully proves the efficient market hypothesis. Because the flexible inflation targeting framework structurally telegraphs rate trajectories in advance, the market fully prices in the shock prior to the announcement date, rendering post-event directional movement as statistically unpredictable noise.
