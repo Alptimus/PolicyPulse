@@ -1,0 +1,7 @@
+yfinance
+matplotlib
+seaborn
+scikit-learn
+streamlit
+plotly
+arch
